@@ -1,0 +1,37 @@
+.container {
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.image-container {
+    display: inline-block;
+}
+
+.image-wrapper {
+    width: 300px; /* Adjust the size of the square as needed */
+    height: 300px; /* Adjust the size of the square as needed */
+    border: 2px solid white; /* Updated border color */
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+#pictureSelect {
+    margin-top: 20px;
+    margin-bottom: 20px; /* Add space between image and select box */
+    font-size: 16px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    display: block; /* Make the select box a block element */
+    margin: 0 auto; /* Center the select box */
+}
